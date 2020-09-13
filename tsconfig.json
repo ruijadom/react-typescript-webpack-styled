@@ -1,15 +1,27 @@
+es (25 sloc)  491 Bytes
+  
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "jsx": "react",
-    "moduleResolution": "node",
-    "strict": true,
-    "noEmit": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
     "isolatedModules": true,
-    "esModuleInterop": true
+    "noEmit": true,
+    "jsx": "react"
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

@@ -1,7 +1,13 @@
 import React from "react";
 
+import Layout from './components/Layout'
+
 const App: React.FC = (props) => {
-  return <div>Webpack is cool!</div>;
+  return (
+    <>
+      <Layout />
+    </>
+  );
 };
 
 export default App;
