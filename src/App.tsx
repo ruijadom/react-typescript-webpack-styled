@@ -1,11 +1,15 @@
 import React from "react";
 
-import Layout from './components/Layout'
+import GlobalStyle from './styles/global';
 
-const App: React.FC = (props) => {
+const App: React.FC = () => {
   return (
     <>
-      <Layout />
+      <h1>Header</h1>
+
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, distinctio.</p>
+
+      <GlobalStyle />
     </>
   );
 };
